@@ -1,9 +1,14 @@
+// https://github.com/trishna420/Assignment3.js
+
+//kilometerToMeter
+
 function kilometerToMeter(kilometer) {
     var meter = kilometer / 1000;
     return meter;
 }
 
 
+//budgetCalculator
 
 function budgetCalculator(phone, watch, laptop) {
     var totalPrice = (phone * 100) + (watch * 50) + (laptop);
@@ -11,6 +16,7 @@ function budgetCalculator(phone, watch, laptop) {
 
 }
 
+//hotelCost
 function hotelCost(day) {
     cost = 0;
     if (day <= 10) {
@@ -33,7 +39,7 @@ function hotelCost(day) {
 }
 
 
-
+///megaFriend
 
 function megaFriend(names) {
     var maximumWord = names[0];
